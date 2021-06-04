@@ -1,0 +1,36 @@
+{
+  "name": "csv_format",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "@date-io/date-fns": "^2.10.11",
+    "@fast-csv/format": "^4.3.5",
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/pickers": "^3.3.10",
+    "axios": "^0.20.0",
+    "date-fns": "^2.22.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.12",
+    "nodemon": "^2.0.6",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^4.2.0"
+  },
+  "scripts": {
+    "react-dev": "webpack -d --watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.5",
+    "babel-loader": "^8.2.1"
+  }
+}
